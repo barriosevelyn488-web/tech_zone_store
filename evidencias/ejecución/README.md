@@ -1,21 +1,12 @@
-## # Inicializar el repositorio (si aún no está inicializado)
-git init
+## # adjunto evidencias de ejecución y proceso de pruebas 
 
-# Agregar todos los archivos y hacer el primer commit en la rama main
-git add .
-git commit -m "Inicialización de la estructura del repositorio"
 
-# Crear la rama dev y cambiar a ella
-git branch dev
-git checkout dev
+## numero 1  creación de la base de dato e inserccion de tablas 
+![alt text](image.png)
 
-# Mergear la rama main con la rama dev
-git merge main
 
-# Crear ramas específicas desde la rama dev según lo que pide el examen
-git branch feature1
-git branch feature2
-git branch feature3
 
-# Verificar las ramas creadas
-git branch
+## numero 2 inserccion de los datos en cata tabla
+git add ddl/db.sql
+git commit -m "feat: crear esquema de base de datos"
+git switch -c feature/inserts
