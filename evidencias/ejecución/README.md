@@ -1,21 +1,29 @@
-## # Inicializar el repositorio (si aún no está inicializado)
-git init
+## # adjunto evidencias de ejecución y proceso de pruebas 
 
-# Agregar todos los archivos y hacer el primer commit en la rama main
-git add .
-git commit -m "Inicialización de la estructura del repositorio"
 
-# Crear la rama dev y cambiar a ella
-git branch dev
-git checkout dev
+## numero 1  creación de la base de dato e inserccion de tablas 
 
-# Mergear la rama main con la rama dev
-git merge main
+se crearon las tablas segun el modelo entidad relación para ejecutar desde la base de datos con los siguientes comandos 
+\c techzone_db
+![alt text](image.png)
 
-# Crear ramas específicas desde la rama dev según lo que pide el examen
-git branch feature1
-git branch feature2
-git branch feature3
 
-# Verificar las ramas creadas
-git branch
+
+## numero 2 inserccion de los datos en cata tabla
+se insertaron los datos correctamente para ejecutar posteriormente en la terminal las insercciones 
+
+![alt text](image-1.png)
+
+
+## numero 3 se probaron las consultas 
+
+
+
+## numero 4 procedure
+se probo el procedimiento y queries de acuerdo al caso de negocio y las automatizaciones que necesitaba la empresa sin usar transacciones 
+
+
+
+git add dml/insert.sql
+git commit -m "feat: insertar datos de prueba"
+git switch -c feature/queries
