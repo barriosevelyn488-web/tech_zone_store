@@ -26,5 +26,4 @@ Para la correcta inicializacion de la base de datos, ejecute los scripts en el s
 4. dcl/procedure.sql
 
 ## Requisitos
-- Servidor SQL (MySQL / MariaDB / PostgreSQL).
-- Cliente SQL (DBeaver, MySQL Workbench, VS Code Client o CLI).
+- Servidor PostgreSQL
